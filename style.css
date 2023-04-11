@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.dflex{
+    display: flex;
+}
+
+.dflex.jcc{
+    justify-content: center;
+}
+
+.dflex.jcsb{
+    justify-content: space-between;
+}
+
+.dflex.aic{
+    align-items: center;
+}
+
+.dflex.fdc{
+    flex-direction: column;
+}
+
+.flex1{
+    flex: 1;
+}
+
+.flex2{
+    flex: 2;
+}
+
+
+/* ------------------------ */
+
+.card{
+    height: 60vh;
+    width: 40%;
+    background-color: #27566B;
+    padding: 10px;
+    color: #E5E8E9;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.photo{
+    border-left: 2px solid #E5E8E9;
+    padding-left: 10px;
+}
+
+.infos{
+    height: 40%;
+}
+
+.info{
+    padding-right: 10px;
+}
+
+.row .label{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.row .data{
+    font-size: 1.5rem;
+}
+.transactions
+{
+    height: 50%;
+    overflow-y: scroll;
+
+}
+.title{
+    font-size: 1.5rem;
+}
+
+.btn-detail{
+    font-weight: 900;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.form{
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    left: 100%;
+    background-color: #27566B;
+    /* background-color: #06293D;27566B */
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.from-control{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+/* .log
+{
+    display: flex;
+    /* background-color: yellow; */
+
+.transfert{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+.fa-solid
+{
+    /* width: 15%; */
+    /* background-color: white; */
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    position: absolute;
+    /* margin-left: 70%; */
+    left: 7.5em;
+    top: 7.5em;
+    cursor: pointer;
+    
+}
+#searchInput{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+#suggests
+{
+    position: absolute;
+}
+.form-group label{
+    font-size: 1.20rem;
+}
+
+input.from-control{
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: #799eb0;
+    outline: none;
+}
+
+select{
+    outline: none;
+    border-radius: 5px;
+}
+
+.form button{
+    width: 100%;
+    background-color: #06293D;
+    color: #E5E8E9;
+    outline: none;
+    border: 1px solid #799eb0;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.next{
+    padding: 5px 20px;
+    font-size: 1.09rem;
+    margin-top: 10px;
+    background-color: #27566B;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #E5E8E9;
+}
+
+button{
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    background-color: #799eb0;
+}
+tr,td{
+    text-align: center;
+    line-height: 30px;
+}
+
+.form.hide{
+    display: none;
+}
+/* .search
+{
+    height: 5%;
+    width: 25%;
+} */
+.modal-add-client {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 80vh;
+    display: none;
+}
+
+.modal-add-client .modal-header, .modal-add-client .modal-footer {
+    padding: 1rem 0;
+    background-color: #27566B;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.modal-add-client .modal-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    background-color: rgba(193, 199, 201, 0.5);
+    backdrop-filter: blur(8px);
+}
+
+.modal-add-client .modal-body .form-group {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-add-client .modal-body .form-group input {
+    width: 60%;
+}
+
+.modal-add-client .modal-footer button {
+    padding: .5rem 2rem;
+    background-color: #f1f1f1;
+    border-radius: 6px;
+    border: none;
+}
+
+.open-modal {
+    padding: .5rem 1rem;
+    background-color: #27566B;
+    color: white;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-left: -42.5%;
+    cursor: pointer;
+}
+.table{
+    position: relative;
+}
+.fa-light
+{
+    position: absolute;
+    color: darkred;
+}
+.bout
+{
+    display: none;
+}
